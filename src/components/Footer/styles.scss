@@ -1,0 +1,27 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 10vh;
+  background-color: #343a40;
+  color: #fefefe;
+}
+
+footer .copy {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+footer .repository {
+  text-align: end;
+  margin-right: 20px;
+}
+
+footer .repository a {
+  color: #fefefe;
+  font-weight: 600;
+}
+
+footer .repository a:hover {
+  opacity: .7;
+}

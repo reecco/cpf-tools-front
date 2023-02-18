@@ -1,0 +1,72 @@
+.container-generate {
+  padding-top: 10%;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-generate h2 {
+  font-size: 1.7rem;
+  margin-bottom: 5%;
+}
+
+.container-generate .box-generate {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-generate .box-generate .inputs-box .input-cpf {
+  width: 220px;
+  height: 50px;
+  font-size: 1.4rem;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 2px solid #17a2b8;
+  transition: .5s;
+}
+
+.container-generate .box-generate .inputs-box .input-cpf:focus {
+  border: 2px solid #007bff;
+  outline: #007bff;
+}
+
+.container-generate .box-generate .inputs-box .btn-copy {
+  border: none;
+  background-color: transparent;
+  font-size: 1.3rem;
+  margin-left: 10px;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.container-generate .box-generate .inputs-box .btn-copy:hover {
+  color: #17a2b8;
+}
+
+.container-generate .box-generate .inputs-box .btn-copy:active {
+  scale: 1.1;
+}
+
+.container-generate .box-generate .btn-generate {
+  width: 60%;
+  height: 30px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #343a40;
+  color: #fefefe;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.container-generate .box-generate .btn-generate:hover {
+  opacity: .7;
+}
+
+.container-generate .box-generate .btn-generate:active {
+  opacity: 1;
+}

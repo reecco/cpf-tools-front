@@ -1,0 +1,99 @@
+.container-validate {
+  padding-top: 10%;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-validate h2 {
+  font-size: 1.7rem;
+  margin-bottom: 5%;
+}
+
+.container-validate form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-validate form .box-input {
+  position: relative;
+}
+
+.container-validate form .box-input .input-cpf {
+  width: 220px;
+  height: 50px;
+  font-size: 1.4rem;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 2px solid #17a2b8;
+  transition: .5s;
+}
+
+.container-validate form .box-input .input-cpf:focus {
+  border: 2px solid #007bff;
+  outline: #007bff;
+}
+
+.container-validate form .box-input .btn-paste {
+  border: none;
+  background-color: transparent;
+  font-size: 1.3rem;
+  margin-left: 10px;
+  transition: .2s;
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  right: 15px;
+  transform: translateY(-50%);
+}
+
+.container-validate form .box-input .btn-paste:hover {
+  color: #17a2b8;
+}
+
+.container-validate form .box-input .btn-paste:active {
+  scale: 1.1;
+}
+
+.container-validate form .btn-validate {
+  width: 60%;
+  height: 30px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #343a40;
+  color: #fefefe;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.container-validate form .btn-validate:hover {
+  opacity: .7;
+}
+
+.container-validate form .btn-validate:active {
+  opacity: 1;
+}
+
+.container-validate .result {
+  margin-top: 5%;
+}
+
+.container-validate .result .message-box {
+  background-color: rgb(227, 255, 255);
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.container-validate .result .message-box {
+  color: #fefefe;
+  font-size: 1.05rem;
+}
